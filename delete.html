@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post deleted</title>
+    <style>
+        div{
+            box-shadow: 8px 8px 4px #bab8b8;
+            position: absolute;
+            top: 35%;
+            left: 30%;
+            background-color: #ef1010;
+            padding: 20px;
+            width: 500px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        button{
+            border-radius: 5px;
+            background-color: lightcyan;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>The post has been deleted</h1>
+        <button onclick="Blogredirect()">back to blog page</button>
+    </div>
+    <script>
+        function Blogredirect(button) {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

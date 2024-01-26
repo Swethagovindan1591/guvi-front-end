@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>My Blog App</title>
+</head>
+<body>
+    <div id="app">
+
+
+        <!-- Blog List -->
+        <div id="blog-list">
+            <!-- Display blogs here -->
+            <h1>POST</h1>
+        </div>
+
+        <!-- Blog Creation Form -->
+        <div id="totalform">
+            <h2>Create a New Blog</h2>
+            <div id="search-bar">
+                <label for="searchInput">Search&#128269 </label>
+                <input type="text" id="searchInput">
+            </div>
+            <div id="blog-form">
+                <label for="blogTitle">Title:</label>
+                <input type="text" id="blogTitle" required>
+    
+                <label for="blogContent">Content:</label>
+                <textarea id="blogContent" rows="1" oninput="autoExpand(this)" required></textarea>
+    
+                <label for="blogImage">Image URL (Optional):</label>
+                <input type="text" id="blogImage">
+    
+                <label for="blogfile">Choose Image file (Optional)</label>
+                <input type="file" id="blogfile" accept="image/*">
+                
+                <button onclick="createBlog()">Post Blog</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

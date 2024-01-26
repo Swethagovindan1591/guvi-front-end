@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#blog-list{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+#blog-list h1{
+    text-align: center;
+}
+
+#totalform {
+    box-shadow: 8px 8px 4px #bab8b8;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 700px;
+    border: 1px solid #ddd;
+}
+#blog-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#blog-form input,
+#blog-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#blog-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+#blog-form button:hover {
+    background-color: #27b72f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+p{
+    white-space: pre-wrap;
+}
+
+#search-bar{
+    position: absolute;
+    top: 11%;
+    left: 62%;
+}
+
+#searchInput{
+    border-radius: 2cqmin;
+}
